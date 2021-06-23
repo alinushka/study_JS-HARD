@@ -10,4 +10,4 @@ for (let i = 0; i < strNum.length; i++) {
 console.log('переумножение: ', mult);
 
 const n = mult ** 3;
-console.log('первые 2 цифры числа, возведенного в 3 степень: ', n.toString().substring(0, 2));
+console.log('первые 2 цифры числа, возведенного в 3 степень: ', n.toString().substr(0, 2));
